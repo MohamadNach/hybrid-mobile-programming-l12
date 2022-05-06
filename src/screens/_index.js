@@ -1,35 +1,38 @@
-import CreateNote from './create-note';
+import CreateNote from './createNote';
 import Home from './home';
 import MyNotes from './mynotes';
-import NoteEditor from './note-editor';
+import NoteEditor from './noteEditor';
 import Dev from './dev';
 import Loading from './loading';
-import TriggerLoading from './trigger-loading';
+import TriggerLoading from './triggerLoading';
+import Settings from './settings';
 
 export const screenkeys = [
-    'home',
-    'mynotes',
-    'note-editor',
-    'create-note',
-    'dev',
-    'loading',
-    'trigger-loading'
+  'home',
+  'mynotes',
+  'noteEditor',
+  'createNote',
+  'loading',
+  'triggerLoading',
+  'settings',
+  'dev',
 ];
 
 export const screencomponents = [
-    Home,
-    MyNotes,
-    NoteEditor,
-    CreateNote,
-    Dev,
-    Loading,
-    TriggerLoading
+  Home,
+  MyNotes,
+  NoteEditor,
+  CreateNote,
+  Loading,
+  TriggerLoading,
+  Settings,
+  Dev,
 ];
 
 export default screenkeys.map((skey, i) => {
-    const screen = {
-        key: skey,
-        component: screencomponents[i]
-    };
-    return screen;
-})
+  const screen = {
+    key: skey,
+    component: screencomponents[i],
+  };
+  return screen;
+});
