@@ -25,6 +25,7 @@ const resources = {
       delete: 'Delete',
       deleting: 'Deleting',
       'click on the file to edit': 'Click on the file to edit',
+      sensor: 'Sensor',
     },
   },
   FI: {
@@ -50,6 +51,7 @@ const resources = {
       delete: 'Poistaa',
       deleting: 'Poistetaan',
       'click on the file to edit': 'Napsauta tiedostoa muokataksesi sitä',
+      sensor: 'Anturi',
     },
   },
 };

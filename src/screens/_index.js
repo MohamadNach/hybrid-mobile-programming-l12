@@ -6,6 +6,7 @@ import Dev from './dev';
 import Loading from './loading';
 import TriggerLoading from './triggerLoading';
 import Settings from './settings';
+import Sensor from './sensor';
 
 export const screenkeys = [
   'home',
@@ -16,6 +17,7 @@ export const screenkeys = [
   'triggerLoading',
   'settings',
   'dev',
+  'sensor',
 ];
 
 export const screencomponents = [
@@ -27,6 +29,7 @@ export const screencomponents = [
   TriggerLoading,
   Settings,
   Dev,
+  Sensor,
 ];
 
 export default screenkeys.map((skey, i) => {
